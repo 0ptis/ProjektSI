@@ -41,3 +41,4 @@ echo "Tear down..."
   ./bin/console doctrine:schema:drop --no-interaction --full-database --force
   rm -rf var
   rm -rf vendor
+  }

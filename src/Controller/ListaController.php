@@ -183,7 +183,7 @@ class ListaController extends AbstractController
             );
         }
 
-        return $this->redirectToRoute('category_index');
+        return $this->redirectToRoute('lista_index');
         $form = $this->createForm(FormType::class, $lista, [
             'method' => 'DELETE',
             'action' => $this->generateUrl('lista_delete', ['id' => $lista->getId()]),
