@@ -102,7 +102,7 @@ class ListaController extends AbstractController
         }
 
         return $this->render(
-            'lista/create.html.twig',
+            'Lista/create.html.twig',
             ['form' => $form->createView()]
         );
     }
@@ -152,7 +152,7 @@ class ListaController extends AbstractController
         }
 
         return $this->render(
-            'lista/edit.html.twig',
+            'Lista/edit.html.twig',
             [
                 'form' => $form->createView(),
                 'lista' => $lista,
@@ -202,7 +202,7 @@ class ListaController extends AbstractController
         }
 
         return $this->render(
-            'lista/delete.html.twig',
+            'Lista/delete.html.twig',
             [
                 'form' => $form->createView(),
                 'lista' => $lista,
