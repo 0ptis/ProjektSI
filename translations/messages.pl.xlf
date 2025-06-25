@@ -2,6 +2,20 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="pl" datatype="plaintext" original="messages.pl.xlf">
         <body>
+<trans-unit id="form.email">
+                <source>form.email</source>
+                <target>Email</target>
+            </trans-unit>
+
+            <trans-unit id="form.password.new">
+                <source>form.password.new</source>
+                <target>Nowe hasło</target>
+            </trans-unit>
+
+            <trans-unit id="form.password.repeat">
+                <source>form.password.repeat</source>
+                <target>Powtórz hasło</target>
+            </trans-unit>
             <trans-unit id="message.created_successfully">
                 <source>message.created_successfully</source>
                 <target>Utworzono pomyślnie.</target>
